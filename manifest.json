@@ -4,7 +4,7 @@
   "start_url": "./index.html?launcher=true",
   "background_color": "#a27f85",
   "theme_color": "#41998a",
-  "display": "browser",
+  "display": "minimal-ui",
   "icons": [
       {
         "src": "./images/logo-48x48.png",
