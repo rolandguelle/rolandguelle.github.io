@@ -1,0 +1,7 @@
+{
+  "short_name": "about:roland",
+  "name": "Private page of Roland Guelle",
+  "start_url": "index.html?launcher=true",
+  "background_color": "#a27f85",
+  "theme_color": "#41998a"
+}

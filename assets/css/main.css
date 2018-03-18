@@ -17,8 +17,7 @@ html{height:100%;}
 @media screen {
   body {
     height:100%;
-    background-color:#ffffff;
-
+    background-color:#a27f85;
     background-image:-moz-linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("../../images/bg.jpg");
     background-image:-webkit-linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("../../images/bg.jpg");
     background-image:-ms-linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("../../images/bg.jpg");
