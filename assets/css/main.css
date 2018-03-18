@@ -66,7 +66,7 @@ footer .profile li{display:inline-block;margin:0 0 0 0.45em;padding:0 0 0 0.85em
 footer .profile li:first-child{border-left:0;}
 /* Wrapper */
 
-body{display:-moz-flex;display:-webkit-flex;display:-ms-flex;display:flex;-moz-align-items:center;-webkit-align-items:center;-ms-align-items:center;align-items:center;-moz-justify-content:space-between;-webkit-justify-content:space-between;-ms-justify-content:space-between;justify-content:space-between;-moz-flex-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-moz-perspective:1000px;-webkit-perspective:1000px;-ms-perspective:1000px;perspective:1000px;position:relative;min-height:100%;padding:1.5em;z-index:2;}
+body{display:-moz-flex;display:-webkit-flex;display:-ms-flex;display:flex;-moz-align-items:center;-webkit-align-items:center;-ms-align-items:center;align-items:center;-moz-justify-content:space-between;-webkit-justify-content:space-between;-ms-justify-content:space-between;justify-content:space-between;-moz-flex-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:relative;padding:1.5em;z-index:2;}
 body > *{z-index:1;}
 body:before{content:'';display:block;}
 @media screen and (max-width:360px){body{padding:0.75em;}
@@ -99,7 +99,7 @@ header {
 }
 
 /* CSS Table & small screens */
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px)  {
+@media only screen and (max-width: 760px), screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
   .about img { float:inherit; display:block; margin: auto; width: 100%; max-width: 280px;}
   
 	/* Force table to not be like tables anymore */
@@ -146,6 +146,7 @@ header {
 @media print {
   body{
     font-size:11pt;
+    display: block;
   }
   h2 {
     page-break-before: always;
