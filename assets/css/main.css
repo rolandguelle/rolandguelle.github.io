@@ -17,21 +17,7 @@ html{height:100%;}
 @media screen {
   body {
     height:100%;
-    background-color:#a27f85;
-    background-image:-moz-linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("../../images/bg.jpg");
-    background-image:-webkit-linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("../../images/bg.jpg");
-    background-image:-ms-linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("../../images/bg.jpg");
-    background-image:linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("../../images/bg.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment:fixed;
-
-    /*
-    background-repeat:repeat,no-repeat,no-repeat;
-    background-size:100% 100%,cover,cover;
-    background-position:top left,center center,bottom center;
-    background-attachment:fixed,fixed,fixed;
-    */
+    background-color:#607d8b;
   }
 }
 body{color:#414f57;font-family:"Source Sans Pro",Helvetica,sans-serif;font-size:14pt;font-weight:300;line-height:2;letter-spacing:0.2em;}
@@ -107,6 +93,12 @@ td[colspan] { font-weight: bold; }
   text-align: left;
   margin: auto;
   padding: 0 5%;
+}
+
+@media screen {
+  header.upper * {
+    color: white;
+  }
 }
 .about img { float: left; padding: 1em;}
 .about h3 {padding: 1em;}
