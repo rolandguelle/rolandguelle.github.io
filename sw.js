@@ -3,9 +3,8 @@ https://css-tricks.com/serviceworker-for-offline/
 */
 
 "use strict";
-var version = 'v26';
+var version = 'v5';
 var offlineFundamentals = [
-  '/assets/css/main.css'
 ];
 self.addEventListener("install", function(event) {
   console.log('WORKER: install event in progress.');

@@ -5,9 +5,9 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="canonical" href="https://roland.guelle.de/"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/main.css?v5"/>
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="./favicon.ico"/>
-    <link rel="manifest" href="./manifest.json?4"/>
+    <link rel="manifest" href="./manifest.json?v5"/>
     <meta name="theme-color" content="#4A5A69"/>
 
     <meta name="Description" content="about: roland guelle"/>
@@ -46,7 +46,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       console.log('CLIENT: service worker registration in progress.');
-      navigator.serviceWorker.register('/sw.js').then(function() {
+      navigator.serviceWorker.register('/sw.js?v5').then(function() {
         console.log('CLIENT: service worker registration complete.');
       }, function() {
         console.log('CLIENT: service worker registration failure.');
