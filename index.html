@@ -9,6 +9,18 @@
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="./favicon.ico"/>
     <link rel="manifest" href="./manifest.json?3"/>
     <meta name="theme-color" content="#607d8b"/>
+    <script>
+      if ('serviceWorker' in navigator) {
+        console.log('CLIENT: service worker registration in progress.');
+        navigator.serviceWorker.register('./sw.js').then(function() {
+          console.log('CLIENT: service worker registration complete.');
+        }, function() {
+          console.log('CLIENT: service worker registration failure.');
+        });
+      } else {
+        console.log('CLIENT: service worker is not supported.');
+      }
+    </script>  
   </head>
   <body>
       <section class="upper">
