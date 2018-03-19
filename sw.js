@@ -3,7 +3,7 @@ https://css-tricks.com/serviceworker-for-offline/
 */
 
 "use strict";
-var version = 'v23';
+var version = 'v25';
 var offlineFundamentals = [
   '/assets/css/main.css'
 ];
