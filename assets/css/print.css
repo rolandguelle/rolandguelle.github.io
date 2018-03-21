@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+  font-size:11pt;
+  display: block;
+}
+h2 {
+  page-break-before: always;
+  margin:1pt;
+}
+footer {
+  display: none;
+}
+table {
+  font-size: 7pt;
+}
+table, tr, td {
+  padding: 0;
+  margin: 0;
+}
+td {
+  border-bottom: 1px solid black;
+}

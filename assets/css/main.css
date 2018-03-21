@@ -179,30 +179,6 @@ header {
 	td:not([colspan]):nth-of-type(2):before { content: "Event"; }
 }
 
-/* print.css */
-@media print {
-  body{
-    font-size:11pt;
-    display: block;
-  }
-  h2 {
-    page-break-before: always;
-    margin:1pt;
-  }
-  footer {
-    display: none;
-  }
-  table {
-    font-size: 7pt;
-  }
-  table, tr, td {
-    padding: 0;
-    margin: 0;
-  }
-  td {
-    border-bottom: 1px solid black;
-  }
-}
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
