@@ -4,7 +4,7 @@ body{
   font-size:11pt;
   display: block;
 }
-h2 {
+h2:not(:first-child) {
   page-break-before: always;
   margin:1pt;
 }
@@ -20,4 +20,9 @@ table, tr, td {
 }
 td {
   border-bottom: 1px solid black;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
 }
